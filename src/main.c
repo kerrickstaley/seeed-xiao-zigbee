@@ -7,6 +7,10 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 
+#include <zboss_api.h>
+
+void zboss_signal_handler(zb_bufid_t bufid) {}
+
 /* 1000 msec = 1 sec */
 #define SLEEP_TIME_MS   1000
 
